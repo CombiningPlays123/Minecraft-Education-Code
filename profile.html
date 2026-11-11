@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Profile · Block Together</title>
+<meta name="description" content="Your account and posted worlds.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Cpath%20d%3D%22M20%203%2036%2011.5v17L20%2037%204%2028.5v-17z%22%20fill%3D%22%2335a244%22%2F%3E%3Cpath%20d%3D%22M4%2011.5%2020%2020v17L4%2028.5z%22%20fill%3D%22%236b4c33%22%2F%3E%3Cpath%20d%3D%22M36%2011.5%2020%2020v17l16-8.5z%22%20fill%3D%22%234a3322%22%2F%3E%3Cpath%20d%3D%22M20%203%2036%2011.5%2020%2020%204%2011.5z%22%20fill%3D%22%235fdc6e%22%2F%3E%3C%2Fsvg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="profile" class="loading">
+<div id="nav"></div>
+<main>
+<div class="container page">
+<div class="card profile-card"><div class="profile-top"><div class="avatar" id="p-avatar">?</div><div class="profile-info"><h1 id="p-name">…</h1>
+<div class="kv"><div><span>Email</span><b id="p-email">…</b></div><div><span>Member since</span><b id="p-joined">…</b></div><div><span>Worlds posted</span><b id="p-count">0</b></div></div></div></div></div>
+<div class="section-title"><h2>My worlds</h2><a class="btn btn-primary btn-sm" href="post.html">Post a World</a></div>
+<div class="world-grid" id="my-worlds"></div>
+</div>
+</main>
+<footer class="footer"><div class="container">Block Together is a community project for Minecraft Education multiplayer. Not affiliated with Mojang or Microsoft.</div></footer>
+<div id="toasts"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/pages.js"></script>
+</body>
+</html>
